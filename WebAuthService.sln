@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WebAuthService(17Aug)", ".", "{603C53F0-A2BE-49D7-92C2-07EB0BD8DDE8}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/WebAuthService(17Aug)"
+		Debug.AspNetCompiler.PhysicalPath = "..\WebAuthService(17Aug)\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\WebAuthService(17Aug)\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/WebAuthService(17Aug)"
+		Release.AspNetCompiler.PhysicalPath = "..\WebAuthService(17Aug)\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\WebAuthService(17Aug)\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "49352"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{603C53F0-A2BE-49D7-92C2-07EB0BD8DDE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{603C53F0-A2BE-49D7-92C2-07EB0BD8DDE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

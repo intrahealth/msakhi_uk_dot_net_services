@@ -1,0 +1,140 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="PISMasterPage.master.cs"
+    Inherits="PIA_PISMasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title>Untitled Page</title>
+    <link href="App_Themes/NewTheme/StyleSheet.css" rel="stylesheet" type="text/css" />
+    <link href="jscripts/jquery.autocomplete.css" rel="stylesheet" type="text/css" />
+    <link href="~/Styles/Site.css" rel="stylesheet" type="text/css" />
+    <link href="Styles/textinput.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+        <style type="text/css">
+            .mainMenu td
+            {
+                background-color: #004488;
+                background-repeat: repeat-x;
+                font-family: Arial;
+                font-size: 12px;
+                text-align: center;
+            }
+            .mainSubMenu td
+            {
+                /*DropDown BackGroun Color*/
+                background-color: #004488; /*background-image: url('../Images/New.JPG');*/
+                background-repeat: repeat-x;
+                font-family: arial;
+                font-size: 12px;
+                text-align: left;
+                padding-left: 2px;
+                color: #FFFFFF;
+                font-weight: bold;
+            }
+            .mainhover td
+            {
+                background-color: #004488;
+                background-repeat: repeat-x;
+                font-family: arial;
+                font-size: 12px;
+                color: red;
+            }
+            .subMenuFile1 td
+            {
+                background-repeat: repeat-x;
+                font-family: Verdana;
+                font-size: 11px;
+                color: red;
+            }
+            .mainhoverSub td
+            {
+                /*background-color:Transparent;*/
+                background-color: #335986; /*background-image: url('../images/Y1.jpg');*/
+                background-repeat: repeat-x;
+                font-family: arial;
+                font-size: 12px;
+                text-align: left;
+            }
+            .menuZindex
+            {
+                z-index: 100;
+            }
+        </style>
+    </asp:ContentPlaceHolder>
+</head>
+
+<body style="vertical-align: top; text-align: center">
+    <form id="form1" runat="server">
+    <div align="center" id="divmain" style="width: auto; margin-left: auto; margin-right: auto;">
+        <div id="divLogo" style="width: 100%; background-color: #130202;">
+            <div style="left: 14%; visibility: visible; vertical-align: middle; position: absolute;
+                top: 12.5%; color: #FFFF99;" id="DIV17" align="center" runat="server" valign="middle">
+                <asp:Label ID="lblPIAName" ForeColor="#61686f" runat="server" Font-Size="12pt"></asp:Label>
+            </div>
+           <%-- <img src="images/logo.png.png" height="25%" alt="logo" style="width: 26%; margin-right: 73%;" />--%>
+
+           <td align="left">
+        <img src="images/logo.png" height="25%"  alt="logo" style="width: 24%;margin-left: -12.44%;"/>
+        </td>
+     <td align="right">
+        <img src="images/msakhi.png" height="25%"  alt="logo" style="width: 11%;margin-left: 51.56%;"/>
+        </td>
+        </div>
+        <div style="width: auto;">
+            <div id="divMenuStrip" class="menuStripskill">
+                <asp:Menu ID="Menu1" runat="server" Height="25px" Orientation="Horizontal" Width="960px"
+                    Font-Size=" 139%" StaticSubMenuIndent="100px" StaticPopOutImageUrl="~/App_Themes/NewTheme/Images/noArrow.GIF"
+                    StaticPopOutImageTextFormatString="Left" Visible="true" DynamicHorizontalOffset="2"
+                    DynamicMenuItemStyle-CssClass="mainSubMenu" DynamicHoverStyle-CssClass="mainhover"
+                    StaticMenuItemStyle-CssClass="mainMenu" StaticHoverStyle-CssClass="mainhover"
+                    DynamicMenuItemStyle-Height="25px" DynamicHoverStyle-Font-Bold="false" StaticHoverStyle-Font-Bold="true"
+                    DynamicMenuItemStyle-BorderStyle="Solid" DynamicHoverStyle-BorderWidth="1px"
+                    DynamicHoverStyle-BorderColor="#223b40" DynamicHoverStyle-ForeColor="red" StaticMenuItemStyle-Font-Bold="true"
+                    DynamicMenuItemStyle-Font-Bold="true" DynamicMenuItemStyle-ForeColor="black"
+                    ForeColor="White" Style="vertical-align: top;" PathSeparator="|">
+                    <StaticMenuItemStyle HorizontalPadding="39px" VerticalPadding="1px" Height="25px"
+                        CssClass="mainMenu" Font-Bold="False" ForeColor="White" />
+                    <DynamicMenuStyle CssClass="menuZindex" />
+                    <DynamicHoverStyle BorderWidth="1px" CssClass="mainhover" Font-Bold="True" ForeColor="White"
+                        BorderColor="White" />
+                    <DynamicMenuItemStyle BorderStyle="Solid" CssClass="mainSubMenu" Font-Bold="false"
+                        ForeColor="White" Height="25px" BackColor="#3a9fd8" Width="150px" />
+                    <StaticHoverStyle CssClass="mainhover" Font-Bold="True" />
+                    <Items>
+                        <asp:MenuItem Text="Dashboard" Value="PIA Profile" NavigateUrl="Dashboard.aspx">
+                        </asp:MenuItem>
+                        <asp:MenuItem Text="HHData" Value="Dashboard" NavigateUrl="hhdata.aspx">
+                        </asp:MenuItem>
+                        <asp:MenuItem Text="Masters" Value="Reports" NavigateUrl="#">
+                            <asp:MenuItem Text="ANM" NavigateUrl="frm_ANM.aspx" />
+                            <asp:MenuItem Text="Asha" NavigateUrl="frm_ASHA.aspx" />
+                            <asp:MenuItem Text="Sub Center" NavigateUrl="frm_center.aspx" />
+                        </asp:MenuItem>
+                        <asp:MenuItem Text="Reports" Value="Reports" NavigateUrl="#">
+                         <asp:MenuItem Text="HH Verification" NavigateUrl="hhvrerification.aspx" />
+                         <asp:MenuItem Text="HH Summary" NavigateUrl="HHReport.aspx" />
+                         <asp:MenuItem Text="Data Summary" NavigateUrl="DataReport.aspx" />
+                         <asp:MenuItem Text="Track Changes" NavigateUrl="TrackChanges.aspx" />
+                          <asp:MenuItem Text="VHND Shedule" NavigateUrl="VHND_Schedule.aspx" />
+                        </asp:MenuItem>
+                        <asp:MenuItem Text="LOGOUT" Value="dashboard" NavigateUrl="Login.aspx"></asp:MenuItem>
+                    </Items>
+                </asp:Menu>
+            </div>
+        </div>
+    </div>
+    <div class="main">
+        <asp:ContentPlaceHolder ID="MainContent" runat="server" />
+    </div>
+    <div class="Masterfooter">
+        <div class="footer_sec1">
+            <div class="copy_rightnew">
+                Copyright © 2016</div>
+        </div>
+        <div style="width: 40%; float: right; font-size: 10px; text-align: right; margin-right: 3px;">
+            Developed by : Microware Computing & Consulting Pvt. Ltd.
+        </div>
+    </div>
+    </form>
+</body>
+</html>

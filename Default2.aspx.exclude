@@ -1,0 +1,158 @@
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/PISMasterPage.master" AutoEventWireup="true" CodeFile="Default2.aspx.cs" Inherits="Default2" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<%--<head id="Head1" runat="server">
+    <title></title>
+ 
+      <style type="text/css">
+   
+body {
+
+      background: #ffffff url("images/banner01.jpg");
+         background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position:bottom; 
+   
+}    
+    </style>
+</head>--%>
+
+
+    <img src="images/logo.png.png" style="width: 26%;"/>
+    <div style="width: auto;margin-left: -1%;padding-left: 1%;margin-bottom: 31px;background-color:#c9cbce;">     <h1 style="margin-top: 0%;">     Dashboard     </h1>    </div>    
+   
+ <div >
+    
+    
+    <div style="width:95%; margin-bottom:30px;  margin-right:5px; padding-left:30px; padding-right:30px;">
+    <div style="width:20%; float:left; box-shadow: 10px 10px 5px #888888; background-color:#baffc9; ">
+       <div style="width:100%; margin-top:10px; text-align:center ;"> 
+                <asp:Label ID="Label1" runat="server" Text="Male" Font-Bold="True" width="100%"
+                    ForeColor="Silver"></asp:Label>
+       </div>
+       <div style="width:100%; margin-top:10px; text-align:center;">
+                 <asp:Label ID="lblmale" runat="server" Text="Count" Font-Italic="True" 
+                     Font-Size="Large" ForeColor="#6699FF"></asp:Label>
+        </div>
+    </div>
+
+    <div style="width:20%; float:left; box-shadow: 10px 10px 5px #888888; background-color:#bae1ff; ">
+       <div style="width:100%; margin-top:10px; text-align:center ;"> 
+                <asp:Label ID="Label3" runat="server" Text="Female" Font-Bold="True" width="100%"
+                    ForeColor="Silver"></asp:Label>
+       </div>
+       <div style="width:100%; margin-top:10px; text-align:center;">
+                 <asp:Label ID="lblfemale" runat="server" Text="Count" Font-Italic="True" 
+                     Font-Size="Large" ForeColor="#6699FF"></asp:Label>
+        </div>
+    </div>
+
+    <div style="width:20%; float:left; box-shadow: 10px 10px 5px #888888; background-color:#ffffba; ">
+       <div style="width:100%; margin-top:10px; text-align:center ;"> 
+                <asp:Label ID="Label5" runat="server" Text="Member" Font-Bold="True" width="100%"
+                    ForeColor="Silver"></asp:Label>
+       </div>
+       <div style="width:100%; margin-top:10px; text-align:center;">
+                 <asp:Label ID="lblMember" runat="server" Text="Count" Font-Italic="True" 
+                     Font-Size="Large" ForeColor="#6699FF"></asp:Label>
+        </div>
+    </div>
+
+    <div style="width:20%; float:left; box-shadow: 10px 10px 5px #888888; background-color:#ffdfba; ">
+       <div style="width:100%; margin-top:10px; text-align:center ;"> 
+                <asp:Label ID="Label7" runat="server" Text="Married" Font-Bold="True" width="100%"
+                    ForeColor="Silver"></asp:Label>
+       </div>
+       <div style="width:100%; margin-top:10px; text-align:center;">
+                 <asp:Label ID="lblmarried" runat="server" Text="Count" Font-Italic="True" 
+                     Font-Size="Large" ForeColor="#6699FF"></asp:Label>
+        </div>
+    </div>
+
+    <div style="width:100%;">
+    <div style="width:20%; float:left; box-shadow: 10px 10px 5px #888888; background-color:#ffb3ba; ">
+       <div style="width:100%; margin-top:10px; text-align:center ;"> 
+                <asp:Label ID="Label9" runat="server" Text="UnMarried" Font-Bold="True" width="100%"
+                    ForeColor="Silver"></asp:Label>
+       </div>
+       <div style="width:100%; margin-top:10px; text-align:center;">
+                 <asp:Label ID="lblunmarried" runat="server" Text="Count" Font-Italic="True" 
+                     Font-Size="Large" ForeColor="#6699FF"></asp:Label>
+        </div>
+    </div>
+
+
+    </div>
+    </div>
+    <div style="height:100px;">
+    </div>
+    <div style="width:95%; margin-bottom:30px;  margin-right:5px; padding-left:30px; padding-right:30px;">
+
+    <div style="width:20%; float:left; box-shadow: 10px 10px 5px #888888; background-color:#baffc9; ">
+       <div style="width:100%; margin-top:10px; text-align:center ;"> 
+                <asp:Label ID="Label2" runat="server" Text="SC" Font-Bold="True" width="100%"
+                    ForeColor="Silver"></asp:Label>
+       </div>
+       <div style="width:100%; margin-top:10px; text-align:center;">
+                 <asp:Label ID="lblsc" runat="server" Text="Count" Font-Italic="True" 
+                     Font-Size="Large" ForeColor="#6699FF"></asp:Label>
+        </div>
+    </div>
+
+    <div style="width:20%; float:left; box-shadow: 10px 10px 5px #888888; background-color:#bae1ff; ">
+       <div style="width:100%; margin-top:10px; text-align:center ;"> 
+                <asp:Label ID="Label6" runat="server" Text="ST" Font-Bold="True" width="100%"
+                    ForeColor="Silver"></asp:Label>
+       </div>
+       <div style="width:100%; margin-top:10px; text-align:center;">
+                 <asp:Label ID="lblst" runat="server" Text="Count" Font-Italic="True" 
+                     Font-Size="Large" ForeColor="#6699FF"></asp:Label>
+        </div>
+    </div>
+
+    <div style="width:20%; float:left; box-shadow: 10px 10px 5px #888888; background-color:#ffffba; ">
+       <div style="width:100%; margin-top:10px; text-align:center ;"> 
+                <asp:Label ID="Label12" runat="server" Text="OBC" Font-Bold="True" width="100%"
+                    ForeColor="Silver"></asp:Label>
+       </div>
+       <div style="width:100%; margin-top:10px; text-align:center;">
+                 <asp:Label ID="lblobc" runat="server" Text="Count" Font-Italic="True" 
+                     Font-Size="Large" ForeColor="#6699FF"></asp:Label>
+        </div>
+    </div>
+
+    <div style="width:20%; float:left; box-shadow: 10px 10px 5px #888888; background-color:#ffdfba; ">
+       <div style="width:100%; margin-top:10px; text-align:center ;"> 
+                <asp:Label ID="Label14" runat="server" Text="OTHER" Font-Bold="True" width="100%"
+                    ForeColor="Silver"></asp:Label>
+       </div>
+       <div style="width:100%; margin-top:10px; text-align:center;">
+                 <asp:Label ID="lblother" runat="server" Text="Count" Font-Italic="True" 
+                     Font-Size="Large" ForeColor="#6699FF"></asp:Label>
+        </div>
+    </div>
+
+    <div style="width:100%;">
+    <div style="width:20%; float:left; box-shadow: 10px 10px 5px #888888; background-color:#ffb3ba; ">
+       <div style="width:100%; margin-top:10px; text-align:center ;"> 
+                <asp:Label ID="Label16" runat="server" Text="Village" Font-Bold="True" width="100%"
+                    ForeColor="Silver"></asp:Label>
+       </div>
+       <div style="width:100%; margin-top:10px; text-align:center;">
+                 <asp:Label ID="lblvillage" runat="server" Text="Count" Font-Italic="True" 
+                     Font-Size="Large" ForeColor="#6699FF"></asp:Label>
+        </div>
+    </div>
+
+
+    </div>
+
+    </div>
+   
+   </div>
+
+</html>
+</asp:Content>
+

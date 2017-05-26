@@ -1,0 +1,1843 @@
+﻿body
+{
+	margin: 0px;
+	font-family: Verdana;
+	font-size: 11px;
+}
+
+.button
+{
+	border: solid px #c0c0c0;
+	background-color: #eee;
+	font-family: verdana;
+	font-size: 11px;
+	color: Blue;
+	height: 60;
+	width: 60;
+}
+
+.modalPanel
+{
+	background-color: #404040;
+	border-width: 3px;
+	border-style: solid;
+	border-color: Gray;
+	padding: 3px;
+	width: 5000px;
+	height: 5000px;
+}
+
+.modalBg
+{
+	background-color: #E0E0E0;
+	filter: alpha(opacity=80);
+	opacity: .8;
+}
+.modalPopup
+{
+	background-color: white;
+	border-width: 3px;
+	border-style: groove;
+	border-color: #004080;
+	width: auto;
+	height: auto;
+	padding: 1em 6px;
+	vertical-align: middle;
+	border-bottom-width: medium;
+}
+
+.MPopupToPop
+{
+	background-color: white;
+	border-width: 2px;
+	border-style: solid;
+	border-color: #004080;
+	width: 965;
+	height: 555;
+	padding: 1em 6px;
+	vertical-align: middle;
+	border-bottom-width: medium;
+}
+
+.modalConfirm
+{
+	background-color: White;
+	border-width: 2px;
+	border-style: solid;
+	border-color: #004080;
+	width: 269px;
+	height: 67px;
+	padding: 1em 6px;
+	vertical-align: top;
+	border-bottom-width: medium;
+}
+
+.GridView
+{
+	background-color: white;
+	font-family: arial;
+	font-size: 10px;
+	width: 1000;
+	text-align: left;
+}
+
+.tableStyle
+{
+	width: 311px;
+	font: 11px arial;
+	margin: 10px 0 10px 0;
+	color: #2F7C9F;
+}
+
+.watermark
+{
+	background-color: #E0E0E0;
+	color: Gray;
+}
+
+.subMenuFile
+{
+	z-index: 100;
+	background-color: #B0C4DE;
+	font-family: Arial;
+	margin: 5px 5px 5px 5px;
+	padding: 5px 5px 5px 5px;
+	border: solid 1px white;
+	text-align: left;
+	width: auto;
+}
+
+.DivStyle
+{
+	font-family: Arial;
+	font-size: 11px;
+	text-align: left;
+	left: 0px;
+}
+
+.LinkStyle
+{
+	font-family: Arial;
+	font-size: 11px;
+	text-align: Right;
+	left: 0px;
+}
+
+
+.shg_ear{width:98%; 
+float: left;
+height:auto;
+border:1px solid #ccc;
+background-color:#eee;
+box-shadow: 0px 6px 8px -5px #545454;
+}
+
+.TdData
+{
+	border-bottom: none;
+	border-left: none;
+	border-right: none;
+	border-top: none;
+	font-family: Arial;
+	font-size: 12px;
+	text-align: left;
+	color: #253542;
+	vertical-align: top; /*float: left; 	width: auto; 	height: auto; 	font-family: Arial; 	font-size: 14px; 	color: #252525; 	text-align: justify; 	padding: 3% 0% 0% 2%;*/
+}
+
+div.rounded-box
+{
+	position: relative;
+	width: 9em;
+	margin: 3px;
+}
+
+.Label
+{
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 11px;
+	color: #004080;
+	text-align: left;
+	margin-left: 0px;
+}
+
+.LabelHeader
+{
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 15px;
+	color: white;
+	background-color: #2F7C9F;
+	text-align: center;
+}
+
+
+
+.GridHeader
+{
+	color: #008E8C;
+	background-color: White;
+	background-repeat: no-repeat;
+	font-size: 10pt;
+	font-weight: bold;
+	text-align: left;
+}
+
+.GridLabel
+{
+	color: #5E696B;
+	font-size: 10pt;
+	text-decoration: none;
+	font-weight: bold;
+	text-align: left;
+}
+
+.gridCss
+{
+	border: solid 1px #2F7C9F;
+	font-family: Arial;
+	font-size: 12px;
+	color: black;
+	margin-left: 0px;
+	margin-right: 0px;
+	text-align: justify;
+}
+
+.GridHdrCss
+{
+	font-family: Arial;
+	font-size: 12px;
+	color: White;
+	text-align: left;
+	background-color: #4969a5;
+	height: 100;
+	margin-left: 5px;
+}
+
+.gridHeaderCss
+{
+	font-family: Arial;
+	font-size: 12px;
+	color: White;
+	text-align: left;
+	vertical-align: top;
+	background-color: #4969a5;
+}
+
+.gridItemCss
+{
+	font-family: Arial;
+	font-size: 10px;
+	text-align: center;
+	vertical-align: top;
+}
+
+.gridItemCss2
+{
+	font-family: Arial;
+	font-size: 10px;
+	text-align: center;
+	vertical-align: top;
+}
+
+.gridFooterCss
+{
+	font-family: Arial;
+	font-size: 11px;
+	color: white;
+	background-color: #4969a5;
+	height: 15px;
+	border: solid 1px black;
+	text-align: Left;
+}
+.buttonClass
+{
+	border: solid 2px #004080;
+	background-color: white;
+	font-family: Arial;
+	font-size: 11px;
+	color: #2F7C9F;
+	width: 60;
+	font-weight: bold;
+}
+
+.SubMenuItem
+{
+	background-color: #CCC;
+	background-image: url(    '../images/g1.jpg' );
+}
+
+.header
+{
+	background-color: #273848;
+	width: auto;
+	height: 85px;
+}
+.JSLPSLogo
+{
+	background-image: url(    'Images/jslps-logo.jpg' );
+	width: 481px;
+	height: 85px;
+	float: left;
+}
+
+.JSLPSLogoskill
+{
+	background-image: url(    'Images/login-Design-info.png' );
+	width: auto;
+	height: 85px;
+	float: left;
+}
+
+.menuStrip
+{
+	background-image: url(    'Images/menu-bg.jpg' );
+	width: auto;
+	height: 30px;
+	float: center;
+}
+
+.masterContent
+{
+	background-color: #eaf1f7;
+	width: auto;
+	padding-bottom: 20px;
+	border-top-width: 1px;
+	border-top-style: solid;
+	min-height: 500px;
+}
+
+.masterHeader
+{
+	background: #273848;
+	background-repeat: repeat-x;
+	height: auto;
+	width: 970px;
+}
+.masterLogoHeader
+{
+	background-image: url(    'jslps-logo.jpg' );
+	height: 85px;
+	width: 481px;
+	background-repeat: repeat-x;
+}
+.menuOver
+{
+	background-image: url(    ' menuOver.JPG' );
+}
+.menuStyle
+{
+}
+.mainMenuStrip
+{
+	background-image: url(    'menu-bg.jpg' );
+	background-repeat: repeat-x;
+	height: 30px;
+	font-family: Arial;
+	font-size: 11px;
+	text-align: left;
+}
+
+.mGrid
+{
+	width: 99%;
+	background-color: #d9e0e8;
+	border-style: hidden;
+	padding-bottom: 30px;
+	z-index: 200;
+}
+
+
+.mNewGrid
+{
+	width: 99%;
+	background-color: White;
+	border-style: hidden;
+	padding-bottom: 30px;
+	z-index: 200;
+}
+.mGrid a:link
+{
+	color: #253542;
+	text-decoration: underline;
+}
+.mGrid td
+{
+	font-family: Arial;
+	font-size: 12px;
+	color: #253542;
+	font-style: normal;
+	border: solid 1px rgba(49, 77, 101, 0.01);
+	padding: 5px 5px;
+	text-align: left;
+}
+.mGridRight
+{
+	font-family: Arial;
+	font-size: 12px;
+	color: #253542;
+	font-style: normal;
+	border: solid 1px #314d65;
+	padding: 5px 5px;
+	text-align: right;
+}
+.mGrid th
+{
+	background-color: White;
+	border: solid 1px #dedfe1;
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: bold;
+	color: Black;
+	padding: 5px 5px;
+	text-align: left;
+}
+.mGrid .pgr
+{
+	background: #424242;
+}
+.mGrid .pgr table
+{
+	margin: 0px 0;
+}
+.mGrid .pgr td
+{
+	border-width: 0;
+	padding: 0 4px;
+	border-left: solid 1px #666;
+	font-weight: bold;
+	color: #fff;
+	line-height: 22px;
+	font-size: 18px;
+}
+.mGrid .pgr a
+{
+	color: #666;
+	text-decoration: none;
+}
+.mGrid .pgr a:hover
+{
+	color: #FFF;
+	text-decoration: none;
+}
+
+.mGridCertificate
+{
+	background-color: #d9e0e8;
+	vertical-align: middle;
+	text-align: center;
+	background-position: center;
+	height: 30px;
+	width: 30px;
+	background-repeat: no-repeat;
+	background-image: url(    'Images/arrow_down.jpg' );
+}
+
+.mGridEditCommand
+{
+	background-color: #d9e0e8;
+	vertical-align: middle;
+	text-align: center;
+	background-position: center;
+	height: 30px;
+	width: 30px;
+	background-repeat: no-repeat;
+	background-image: url('Images/gtk_edit.png' );
+}
+
+.mGridEditCommand a:link
+{
+	cursor: hand;
+	cursor: pointer;
+}
+.mGridEditCommand a:hover
+{
+	cursor: hand;
+	cursor: pointer;
+}
+
+.mGridDeleteCommand
+{
+	background-color: #d9e0e8;
+	vertical-align: middle;
+	text-align: center;
+	background-position: center;
+	height: 30px;
+	width: 30px;
+	background-repeat: no-repeat;
+	background-image: url(    'Images/delete.jpg' );
+}
+
+.mGridDeleteCommand a:link
+{
+	cursor: pointer;
+}
+.mGridDeleteCommand a:hover
+{
+	cursor: pointer;
+}
+
+.HearderLabel
+{
+	font-family: Arial;
+	font-size: 22px;
+	color: #2d363f;
+}
+.HeaderLabel
+{
+	font-family: Arial;
+	font-size: 22px;
+	color: #2d363f;
+}
+.FooterLabel
+{
+	font-family: Arial;
+	font-size: 12px;
+	color: #2d363f;
+}
+.labelTitle1
+{
+	font-family: Arial;
+	font-size: 14px;
+	color: #2d363f;
+}
+.labelTitle
+{
+	font-family: Arial;
+	font-size: 12px;
+	color: #253542;
+	font-style: normal;
+}
+
+.masterSkillContent
+{
+	background-color: White;
+	width: auto;
+	padding-bottom: 20px;
+	border-top-width: 1px;
+	border-top-style: solid;
+	min-height: 500px;
+}
+
+/* Amarjeet*/
+.submit_butt1
+{
+	float: left;
+	width: 65px;
+	height: 22px;
+	background-color: #8CB3F4;
+	border: 2px solid rgb(98, 153, 246);
+	line-height: 0px;
+	font-family: Arial;
+	font-size: 16px;
+	color: #fff;
+	text-align: center;
+	margin: 2px 0px 0px -170px; /*30*/
+}
+
+
+
+.submit_butt1:hover
+{
+	background-color:  #8CB3F4;
+	border: 2px solid rgb(98, 153, 246);
+}
+
+.shg_ear{ 
+float: left;
+height:auto;
+ border: 1px solid rgba(36, 53, 49, 0.15);
+ background-color: rgba(122, 126, 129, 0.26);
+box-shadow: 0px 6px 8px -5px #545454;}
+
+
+.shg_ear1{ 
+float: left;
+height:auto;
+ border: 1px solid rgba(36, 53, 49, 0.15);
+ border-radius: 8px;
+ background-color: rgba(134, 167, 147, 0.56);
+box-shadow: 0px 6px 8px -5px #545454;}
+
+
+
+.Combo
+{
+	float: left;
+	width: 128px;
+	height: 20px;
+	border: 1px solid #333;
+	border-color: #2F7C9F;
+	font-family: Arial;
+	font-size: 11px;
+	color: #444444;
+}
+.TDData
+{
+	text-align: right;
+	vertical-align: top;
+	padding-left: 2px;
+}
+
+.GrayButton
+{
+	background-color: gray;
+	border: solid 1px #253542;
+	font-size: 14px;
+	font-family: Arial;
+	font-weight: bold;
+	color: White;
+	width: auto;
+	background-repeat: repeat-x;
+	-moz-border-radius: 1px;
+}
+.BlueButton
+{
+	background-image: url(    'Images/menu-bg.jpg' );
+	border: solid 1px #253542;
+	font-size: 14px;
+	font-family: Arial;
+	font-weight: bold;
+	color: White;
+	width: auto;
+	background-repeat: repeat-x;
+}
+
+.BlueButton1
+{
+	background-color: #0066cc;
+	border: solid 1px #253542;
+	font-size: 14px;
+	font-family: Arial;
+	font-weight: bold;
+	color: White;
+	width: auto;
+	background-repeat: repeat-x;
+}
+
+.RoundBlueButton
+{
+	background: url(    'Images/btn-lft-crnrA.jpg' ) no-repeat left;
+	background: url(    'Images/btn-bg.jpg' ) repeat-x center;
+	background: url(    'Images/btn-rgt-crnrA.jpg' ) no-repeat right;
+}
+
+.bl
+{
+	background: url(    'table-imgs/bot-left.jpg' ) no-repeat 0 100%;
+}
+
+.br
+{
+	background: url(    'table-imgs/bot-right.jpg' ) no-repeat 100% 100%;
+}
+
+.tl
+{
+	background: url(    'table-imgs/left-top.jpg' ) no-repeat 0 0;
+}
+
+.tr
+{
+	background: url(    'table-imgs/right-top.jpg' ) no-repeat 100% 0;
+}
+
+.topl
+{
+	background: url(    'table-imgs/top-bg.jpg' ) repeat-x 0 0;
+}
+
+.botl
+{
+	background: url(    'table-imgs/bot-bg.jpg' ) repeat-x 0 100%;
+}
+.LVerl
+{
+	background: url(    'table-imgs/left-bg.jpg' ) repeat-y 0 0;
+}
+.RVerl
+{
+	background: url(    'table-imgs/right-bg.jpg' ) repeat-y 100% 100%;
+}
+
+
+.mModalPanel
+{
+	vertical-align: top;
+	text-align: center;
+  /*  background-color: #eaf1f7; */
+	background-color: white;
+	border: 2px solid Gray;
+	padding: 3px;
+	width: auto;
+	height: auto;
+}
+
+.mModalPanelToPanal
+{
+	vertical-align: top;
+	text-align: center;
+	background-color: #eaf1f7;
+	border: 2px solid Gray;
+	padding: 3px;
+	width: 965;
+	height: 555;
+}
+
+.divHeadermModalPopUp
+{
+	background-color: #354B60;
+	height: 20px;
+	width: 99%;
+	vertical-align: middle;
+	font-size: 18px;
+	color: white;
+}
+
+
+.divFootermModalPopUp
+{
+	background-color: #354B60;
+	height: 20px;
+	width: 90%;
+	vertical-align: middle;
+	font-size: 18px;
+	color: white;
+}
+
+.mModalConfirm
+{
+	background-color: #eaf1f7;
+	border-width: 3px;
+	border-style: solid;
+	border-color: Gray;
+	padding: 3px;
+	width: 5000px;
+	height: 5000px;
+}
+
+.divHeadermModalConfirm
+{
+	background-color: #2f7c9f;
+	border-width: 3px;
+	border-style: solid;
+	border-color: Gray;
+	padding: 3px;
+	width: 5000px;
+	height: 5000px;
+}
+
+.context-menu
+{
+	visibility: hidden;
+	position: absolute;
+	border: 1px solid #666;
+	margin: 0;
+	padding: 3px;
+	list-style: none;
+	width: 100px;
+	background-color: #eee;
+}
+
+.context-menu li:hover, .context-menu .context-menu-item-active
+{
+	background-color: #ccc;
+}
+.disabled
+{
+	color: #999;
+	background-color: #eee !important;
+}
+
+.xstooltip
+{
+	visibility: hidden;
+	background-color: #FFFFE1;
+	position: inherit;
+	top: 0;
+	left: 0;
+	z-index: 2;
+	font: normal 8pt sans-serif;
+	padding: 3px;
+	border: solid 1px;
+}
+
+.divRoundedCornerMaster
+{
+	background: #EFF1F1;
+	background: -webkit-gradient(linear,0 0,0 bottom,from(#FFF),to(#BCB8B3));
+	background: -moz-linear-gradient(#FFF,#BCB8B3);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=    '#FFF' ,endColorstr= '#BCB8B3' );
+	background: linear-gradient(#BCB8B3,#FFF);
+}
+
+.divRoundedCorner
+{
+	border: solid 1px #C7C7C7;
+	background: #EFF1F1;
+	background: -webkit-gradient(linear,0 0,0 bottom,from(#FFF),to(#BCB8B3));
+	background: -moz-linear-gradient(#FFF,#DEDEDE);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=    '#FFF' ,endColorstr= '#BCB8B3' );
+	background: linear-gradient(#FFF,#BCB8B3);
+}
+
+.divGradientMasterHead
+{
+	background: -webkit-gradient(linear,0 0,0 bottom,from(#C8C8C8),to(#000));
+	background: -moz-linear-gradient(#C8C8C8,#000);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=    '#C8C8C8' ,endColorstr= '#000' );
+	background: linear-gradient(#000,#C8C8C8);
+}
+
+#sddm
+{
+	margin: 0;
+	padding: 0;
+	z-index: 30;
+}
+
+#sddm li
+{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	float: left;
+	font: bold 11px arial;
+}
+
+#sddm li a
+{
+	background-image: url(    'B1.jpg' );
+	display: block;
+	margin: 0 1px 0 0;
+	padding: 4px 10px;
+	width: auto;
+	color: black;
+	text-align: center;
+	text-decoration: none;
+}
+
+#sddm li a:hover
+{
+	background-image: url(    'G1.jpg' );
+	color: #ab0026;
+}
+
+#sddm div
+{
+	position: absolute;
+	visibility: hidden;
+	margin: 0;
+	padding: 0;
+	background: #1A3965;
+	border: 1px solid #0895e5;
+}
+
+#sddm div a
+{
+	position: relative;
+	display: block;
+	margin: 0;
+	padding: 5px 10px;
+	width: inherit;
+	white-space: nowrap;
+	text-align: left;
+	text-decoration: none;
+	color: black;
+	font: 11px arial;
+}
+
+#sddm div a:hover
+{
+	background-image: url(    'G1.jpg' );
+	color: #ab0026;
+	font-weight: bold;
+}
+
+
+.MenuItem
+{
+	font-family: Candara;
+	font-size: 8pt;
+	font-weight: normal;
+	text-align: justify;
+	width: 40px;
+	padding: 4px;
+	height: 18px;
+	z-index: 100;
+}
+
+.DynamicMenuItem
+{
+	font-family: Candara;
+	font-size: 8pt;
+	font-weight: normal;
+	text-align: justify;
+	border: solid;
+	border-color: #FFA000;
+	border-width: 0px;
+	padding: 1px;
+	height: auto;
+	z-index: 100;
+}
+
+.MenuItemSelected
+{
+	background-color: #FFFFA0;
+	text-align: justify;
+	border: solid;
+	border-color: #FFA000;
+	border-width: 0px;
+	padding: 1px;
+	height: 18px;
+	z-index: 100;
+}
+
+.MenuItemHover
+{
+	background-color: #3C3;
+	color: Blue;
+	font-family: Candara;
+	font-size: 8pt;
+	font-weight: normal;
+	text-align: justify;
+	border: solid;
+	border-color: #FFF;
+	border-width: 0px;
+	padding: 1px;
+	height: 18px;
+	z-index: 100;
+}
+
+.mainhover
+{
+	/*background-image: url(    '~/Images/HeaderMenu.jpeg' );*/
+}
+
+.CSSTablehead
+{
+	background: -o-linear-gradient(bottom, #cccccc 5%, #b2b2b2 100%);
+	background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #cccccc), color-stop(1, #b2b2b2) );
+	background: -moz-linear-gradient( center top, #cccccc 5%, #b2b2b2 100% );
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=    "#cccccc" , endColorstr= "#b2b2b2" );
+	background: -o-linear-gradient(top,#cccccc,b2b2b2);
+	background-color: #cccccc;
+	border: 0px solid #000000;
+	text-align: center;
+	border-width: 0px 0px 1px 1px;
+	text-align: center;
+	font-size: 9pt;
+	font-family: arial;
+	font-weight: bold;
+	color: #000000;
+}
+
+.CSSTableGenerator
+{
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	box-shadow: 10px 10px 5px #888888;
+	border: 1px solid #000000;
+	-moz-border-radius-bottomleft: 0px;
+	-webkit-border-bottom-left-radius: 0px;
+	-border-bottom-left-radius: 0px;
+	-moz-border-radius-bottomright: 0px;
+	-webkit-border-bottom-right-radius: 0px;
+	-border-bottom-right-radius: 0px;
+	-moz-border-radius-topright: 0px;
+	-webkit-border-top-right-radius: 0px;
+	-border-top-right-radius: 0px;
+	-moz-border-radius-topleft: 0px;
+	-webkit-border-top-left-radius: 0px;
+	-border-top-left-radius: 0px;
+}
+.CSSTableGenerator table
+{
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+.CSSTableGenerator tr:last-child td:last-child
+{
+	-moz-border-radius-bottomright: 0px;
+	-webkit-border-bottom-right-radius: 0px;
+	-border-bottom-right-radius: 0px;
+}
+.CSSTableGenerator table tr:first-child td:first-child
+{
+	-moz-border-radius-topleft: 0px;
+	-webkit-border-top-left-radius: 0px;
+	-border-top-left-radius: 0px;
+}
+.CSSTableGenerator table tr:first-child td:last-child
+{
+	-moz-border-radius-topright: 0px;
+	-webkit-border-top-right-radius: 0px;
+	-border-top-right-radius: 0px;
+}
+.CSSTableGenerator tr:last-child td:first-child
+{
+	-moz-border-radius-bottomleft: 0px;
+	-webkit-border-bottom-left-radius: 0px;
+	-border-bottom-left-radius: 0px;
+}
+.CSSTableGenerator tr:hover td
+{
+}
+.CSSTableGenerator tr:nth-child(odd)
+{
+	background-color: #e5e5e5;
+}
+.CSSTableGenerator tr:nth-child(even)
+{
+	background-color: #ffffff;
+}
+.CSSTableGenerator td
+{
+	vertical-align: middle;
+	border: 1px solid #000000;
+	border-width: 0px 1px 1px 0px;
+	text-align: center;
+	padding: 7px;
+	font-size: 10px;
+	font-family: arial;
+	color: #000000;
+}
+.CSSTableGenerator tr:last-child td
+{
+	border-width: 0px 1px 0px 0px;
+}
+.CSSTableGenerator tr td:last-child
+{
+	border-width: 0px 0px 1px 0px;
+}
+.CSSTableGenerator tr:last-child td:last-child
+{
+	border-width: 0px 0px 0px 0px;
+}
+.CSSTableGenerator tr:first-child td
+{
+	background: -o-linear-gradient(bottom, #cccccc 5%, #b2b2b2 100%);
+	background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #cccccc), color-stop(1, #b2b2b2) );
+	background: -moz-linear-gradient( center top, #cccccc 5%, #b2b2b2 100% );
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=    "#cccccc" , endColorstr= "#b2b2b2" );
+	background: -o-linear-gradient(top,#cccccc,b2b2b2);
+	background-color: #cccccc;
+	border: 0px solid #000000;
+	text-align: center;
+	border-width: 0px 0px 1px 1px;
+	font-size: 11px;
+	width: 10px;
+	text-align: center;
+	font-family: arial;
+	font-weight: bold;
+	color: #000000;
+}
+.CSSTableGenerator tr:first-child:hover td
+{
+	background: -o-linear-gradient(bottom, #cccccc 5%, #b2b2b2 100%);
+	background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #cccccc), color-stop(1, #b2b2b2) );
+	background: -moz-linear-gradient( center top, #cccccc 5%, #b2b2b2 100% );
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=    "#cccccc" , endColorstr= "#b2b2b2" );
+	background: -o-linear-gradient(top,#cccccc,b2b2b2);
+	background-color: #cccccc;
+}
+.CSSTableGenerator tr:first-child td:first-child
+{
+	border-width: 0px 0px 1px 0px;
+}
+.CSSTableGenerator tr:first-child td:last-child
+{
+	border-width: 0px 0px 1px 1px;
+}
+
+.mModalPanelDashboard
+{
+	vertical-align: top;
+	position: fixed;
+	top: 16%;
+	left: 11%;
+	text-align: center;
+	padding: 0px;
+	z-index: 102;
+	background-color: #eaf1f7;
+	border: 2px solid Gray;
+	padding: 3px;
+	width: auto;
+	height: auto;
+}
+
+
+/*-------Auto search CSS---*/
+.ac_results
+{
+	padding: 0px;
+	border: 1px solid black;
+	background-color: white;
+	overflow: hidden;
+	z-index: 99999;
+}
+
+.ac_results ul
+{
+	width: 100%;
+	list-style-position: outside;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.ac_results li
+{
+	margin: 0px;
+	padding: 2px 5px;
+	cursor: default;
+	display: block; /*  	if width will be 100% horizontal scrollbar will apear  	when scroll mode will be used 	*/ /*width: 100%;*/
+	font: menu;
+	font-size: 12px; /*  	it is very important, if line-height not setted or setted  	in relative units scroll will be broken in firefox 	*/
+	line-height: 16px;
+	overflow: hidden;
+}
+
+.ac_loading
+{
+	background: white url(    'indicator.gif' ) right center no-repeat;
+}
+
+.ac_odd
+{
+	background-color: #eee;
+}
+
+.ac_over
+{
+	background-color: #6D84B4;
+	color: white;
+}
+
+.completionList
+{
+	border: solid 1px #444444;
+	margin: 0px;
+	padding: 2px;
+	height: 100px;
+	overflow: auto;
+	background-color: #ffffff;
+	float: left;
+	z-index: 100001 !important;
+	position: absolute;
+	list-style: none;
+	width: auto;
+}
+
+.listItem
+{
+	color: #666666;
+}
+
+.itemHighlighted
+{
+	background-color: #ffc0c0;
+}
+
+
+
+.MyGrid
+{
+	width: 99%;
+	background-color: #d9e0e8;
+	border-style: inherit;
+	padding-bottom: 30px;
+	z-index: 200;
+}
+
+
+.MyGrid a:link
+{
+	color: #253542;
+	text-decoration: underline;
+}
+.MyGrid td
+{
+	font-family: Arial;
+	font-size: 12px;
+	color: #253542;
+	font-style: normal;
+	border: solid 1px #314d65;
+	padding: 5px 5px;
+	text-align: left;
+}
+
+.MyGrid th
+{
+	background-color: Gray;
+	border: solid 1px #314d65;
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: bold;
+	color: White;
+	padding: 5px 5px;
+	text-align: center;
+}
+.MyGrid .pgr
+{
+	background: #424242;
+}
+.MyGrid .pgr table
+{
+	margin: 0px 0;
+}
+.MyGrid .pgr td
+{
+	border-width: 0;
+	padding: 0 4px;
+	border-left: solid 1px #666;
+	font-weight: bold;
+	color: #fff;
+	line-height: 22px;
+	font-size: 18px;
+}
+.MyGrid .pgr a
+{
+	color: #666;
+	text-decoration: none;
+}
+.MyGrid .pgr a:hover
+{
+	color: #FFF;
+	text-decoration: none;
+}
+
+
+
+.TableHeader td
+{
+	font-family: Arial;
+	font-size: 12px;
+	background-color: Gray;
+	color: White;
+	font-style: normal;
+	border: solid 1px #314d65;
+	padding: 5px 5px;
+	text-align: center;
+	vertical-align: top;
+}
+
+.mGridskill
+{
+	width: 99%;
+	background-color: #FFFFFF;
+	border-style: hidden;
+	padding-bottom: 30px;
+	z-index: 200;
+}
+
+.mNewGridskill
+{
+	width: 99%;
+	background-color: White;
+	border-style: hidden;
+	padding-bottom: 30px;
+	z-index: 200;
+}
+.mGridskill a:link
+{
+	color: #253542;
+	text-decoration: underline;
+}
+.mGridskill td
+{
+	font-family: Arial;
+	font-size: 12px;
+	color: #253542;
+	font-style: normal;
+	border: solid 1px #EFEFEF;
+	padding: 5px 5px;
+	text-align: left;
+}
+.mGridskillRight
+{
+	font-family: Arial;
+	font-size: 12px;
+	color: #253542;
+	font-style: normal;
+	border: solid 1px #314d65;
+	padding: 5px 5px;
+	text-align: right;
+}
+.mGridskill th
+{
+	background-color: #F7F7F7;
+	border: solid 1px #dedfe1;
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: bold;
+	color: Black;
+	padding: 5px 5px;
+	text-align: left;
+}
+.mGridskill .pgrskill
+{
+	background: #F7F7F7;
+}
+.mGridskill .pgrskill table
+{
+	margin: 0px 0;
+}
+.mGridskill .pgrskill td
+{
+	border-width: 0;
+	padding: 0 4px;
+	border-left: solid 1px #666;
+	font-weight: bold;
+	color: #fff;
+	line-height: 22px;
+	font-size: 18px;
+}
+.mGridskill .pgrskill a
+{
+	color: #666;
+	text-decoration: none;
+}
+.mGridskill .pgrskill a:hover
+{
+	color: #FFF;
+	text-decoration: none;
+}
+
+.mGridskillCertificate
+{
+	background-color: #FFFFFF;
+	vertical-align: middle;
+	text-align: center;
+	background-position: center;
+	height: 30px;
+	width: 30px;
+	background-repeat: no-repeat;
+	background-image: url(    'Images/Delete--icn.png' );
+}
+
+.mGridskillEditCommand
+{
+	background-color: #FFFFFF;
+	vertical-align: middle;
+	text-align: center;
+	background-position: center;
+	height: 30px;
+	width: 30px;
+	background-repeat: no-repeat;
+	background-image: url(    'Images/Edit-icn.png' );
+}
+
+.mGridskillHistoryCommand
+{
+	background-color: #ffffff;
+	vertical-align: middle;
+	text-align: center;
+	background-position: center;
+	height: 30px;
+	width: 70px;
+	background-repeat: no-repeat;
+	
+}
+
+.mGridskillEditCommand a:link
+{
+	cursor: hand;
+	cursor: pointer;
+}
+.mGridskillEditCommand a:hover
+{
+	cursor: hand;
+	cursor: pointer;
+}
+
+.mGridskillDeleteCommand
+{
+	background-color: #FFFFFF;
+	vertical-align: middle;
+	text-align: center;
+	background-position: center;
+	height: 30px;
+	width: 30px;
+	background-repeat: no-repeat;
+	background-image: url(    'Images/Delete--icn.png' );
+}
+
+.mGridskillDeleteCommand a:link
+{
+	cursor: pointer;
+}
+.mGridskillDeleteCommand a:hover
+{
+	cursor: pointer;
+}
+
+
+
+.mModalPanelskill
+{
+	vertical-align: top;
+	text-align: center;
+	background-color: #FFFFFF;
+	border: 2px solid Gray;
+	padding: 3px;
+	width: auto;
+	height: 600px;
+}
+
+    .mModalPanelskilln
+{
+	vertical-align: top;
+	text-align: center;
+	background-color: #FFFFFF;
+	border: 2px solid Gray;
+	padding: 4px;
+    width: 34%;
+    height: 260px;
+    margin-top: 20px;
+}
+
+
+
+
+
+.mModalPanelskillNew
+{
+	vertical-align: top;
+	text-align: center;
+	background-color: #FFFFFF;
+	border: 2px solid Gray;
+	padding: 3px;
+	width: auto;
+	height: 400px;
+}
+
+.txtbox
+{
+	width: 270px;
+	height: 30px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+
+.divSkill
+{
+	width: 320px;
+	height: 280px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	border: solid 1px #CCCCCC;
+}
+
+.menuStripskill
+{
+	    background-color: #3a9fd8;
+    width: auto;
+    height: 19px;
+        padding: 12px 2px 10px 159px;
+}
+
+.modalBackground
+{
+	background-color: Black;
+	filter: alpha(opacity=40);
+	opacity: 0.4;
+}
+
+
+.button    
+{
+	/*background-color: #c23a00;*/
+	background-color: #8CB3F4;
+	border-radius: 8px;
+	border: 2px solid rgb(98, 153, 246);
+	color: white;
+	font-size: 14px;
+	font-family: Georgia, serif;
+	vertical-align: middle;
+}
+
+/*.button
+{*/
+	/*background-color: #c23a00;*/
+	/*background-color: #FFA500;
+	border-radius: 8px;
+	border: 2px solid #e29303;
+	color: white;
+	font-size: 14px;
+	font-family: Georgia, serif;
+	vertical-align: middle;
+}*/
+
+.button:hover
+{
+	/*background-color: #c23a00;*/
+	background-color: #8CB3F4;
+	border-radius: 8px;
+	border: 2px solid rgb(98, 153, 246);
+	color: white;
+	font-size: 15px;
+	font-family: Georgia, serif;
+	vertical-align: middle;
+}
+
+.button:active
+{
+	border-top-color: #1b435e;
+	background: #1b435e;
+}
+
+.button1
+{
+    border: 2px solid rgb(98, 153, 246);
+	background-color: #8CB3F4;
+	border-radius: 8px;
+	color: white;
+	font-size: 14px;
+	font-family: Georgia, serif;
+	vertical-align: middle;
+}
+
+.button:active
+{
+	border-top-color: #1b435e;
+	background: #1b435e;
+}
+
+.APProveModalPanel
+{
+	vertical-align: top;
+	text-align: center;
+	background-color: White;
+	border: 2px solid Gray;
+	padding: 3px;
+	width: 80%;
+	height: auto;
+}
+
+.GroupModalPanel
+{
+	vertical-align: bottom;
+	background-color: #eaf1f7;
+	border: 2px solid Gray;
+	padding: 6px;
+	width: 900px;
+	height: auto;
+}
+
+.error
+{
+	color: Red;
+}
+
+.label1
+{
+	font-family: Tahoma,Arial,Helvetica;
+	font-size: 11px;
+	text-decoration: none;
+	height: 20px;
+	font-weight: lighter; /*width:50%;*/
+}
+
+.red
+{
+	color: Red;
+}
+
+.divHeaderManish
+{
+	margin-top: 2px;
+	font-size: 18px;
+	vertical-align: middle;
+	color: #4B4B4B;
+	height: 24px;
+	width: auto;
+	text-align: center;
+}
+
+.div2HeaderManish
+{
+	margin-top: 2px;
+	font-size: 18px;
+	vertical-align: middle;
+	color: #4B4B4B;
+	height: 24px;
+	width: auto;
+	background-color: #EBEBEB;
+	text-align: center;
+}
+
+.div3HeaderManish
+{
+	margin-top: 2px;
+	font-size: 18px;
+	vertical-align: middle;
+	color: #4B4B4B;
+	height: 24px;
+	width: 730px;
+	background-color: #EBEBEB;
+	text-align: center;
+}
+
+.mModalPanelskillManish
+{
+	vertical-align: top;
+	text-align: center;
+	background-color: #FFFFFF;
+	border: 2px solid Gray;
+	padding: 3px;
+	width: auto;
+	height: auto;
+	display: block;
+}
+
+.LabelHeaderManish
+{
+	font-size: Small;
+	font-family: Arial;
+	color: Navy;
+}
+
+.headerband
+{
+	font-size: 16px;
+	font-weight: bold;
+	color: White;
+	height: 28px;
+	background-color:rgba(0, 68, 136, 0.71);  /*494949  646363   #555;*/
+	width: 100%;
+	text-align: center;
+	line-height: 22px;
+}
+
+
+.Label_form_text
+{
+	float: left;
+	width: auto;
+	height: auto;
+	font-family: Arial;
+	font-size: 14px;
+	color: #252525;
+	text-align: justify;
+	padding-left: 8px;
+}
+
+
+
+
+.Label_form_textNew
+{
+	float: left;
+	height: auto;
+	font-family: Arial;
+	font-size: 14px;
+	color: #252525;
+	text-align: justify;
+	padding: 1% 0% 0% 2%;
+}
+
+
+
+.TextBox
+{
+	float: left;
+	width: 185px;
+	height: 25px;
+	border: 1px solid #0090ff;
+	border-radius: 4px;
+	margin: 0.5%;
+}
+
+.ComboBox
+{
+	float: left;
+	width: 185px;
+	height: 28px;
+	border: 1px solid #0090ff;
+	border-radius: 4px;
+	margin: 0.5%;
+}
+
+/*.ComboBox
+{
+    float: left;
+    width: 70%;
+    height: 25px;
+    margin: 1.5%;
+}*/
+
+/*.ComboBox
+{
+    font-family: Arial;
+    font-size: 11px;
+    width: 110px;
+}*/
+
+
+
+/*.TextBox
+{
+    font-family: Arial;
+    font-size: 11px;
+    color: Black;
+    border: solid 1px #2F7C9F;
+    margin-left: 0px;
+    width: 155px;
+}*/
+.TextCss
+{
+	font-family: Arial;
+	font-size: 11px;
+	color: Black;
+	border: solid 1px #2F7C9F;
+	margin-left: 0px;
+	width: 155px;
+}
+/*************************Grid CSS*****************/
+
+.DataGridItems td, .DataGridItems
+{
+	font-size: 11px;
+	font-family: tahoma,Arial, verdana, Helvetica, sans-serif;
+	font-weight: normal;
+	line-height: 20px;
+	color: #000000;
+	background-color: #e0ebcd;
+}
+
+
+
+.DataGridSelectedItems td, .DataGridSelectedItems
+{
+	font-size: 11px;
+	font-family: tahoma,Arial, verdana, Helvetica, sans-serif;
+	font-weight: normal;
+	line-height: 20px;
+	color: #000000;
+	background-color: #BCC0F9;
+}
+
+.DataGridFooter td, .DataGridFooter
+{
+	font-size: 11px;
+	font-family: tahoma,Arial, verdana, Helvetica, sans-serif;
+	font-weight: normal;
+	line-height: 9px;
+	color: Black;
+	background-color: #e1e1e1;
+	text-align: center;
+}
+.DataGridHeader td, .DataGridHeader
+{
+	font-size: 11px;
+	font-family: tahoma,Arial, verdana, Helvetica, sans-serif;
+	font-weight: bold;
+	line-height: 20px;
+	color: Black;
+	background-color: #a5ca7d;
+	text-align: center;
+}
+
+.DataGridHeader1 td, .DataGridHeader1
+{
+	font-size: 11px;
+	font-family: tahoma,Arial, verdana, Helvetica, sans-serif;
+	font-weight: bold;
+	line-height: 20px;
+	color: Black;
+	background-color: #e1e1e1;
+	text-align: left;
+}
+
+.GridHD
+{
+	font-size: 11px;
+	font-family: tahoma, verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-align: Left;
+	line-height: 14px;
+	color: #3465a4;
+}
+
+.paging
+{
+}
+
+.paging a
+{
+	background-color: #E1E1E1;
+	padding: 5px 7px;
+	text-decoration: none;
+	border: 1px solid #E1E1E1;
+}
+
+.paging a:hover
+{
+	background-color: #F7F7F7;
+	color: #E1E1E1;
+	border: 1px solid #E1E1E1;
+}
+
+.paging span
+{
+	background-color: #F7F7F7;
+	padding: 5px 7px;
+	color: #E1E1E1;
+	border: 1px solid #E1E1E1;
+}
+
+tr.paging
+{
+	background: none !important;
+}
+
+tr.paging tr
+{
+	background: none !important;
+}
+tr.paging td
+{
+	border: none;
+}
+
+.noRecords
+{
+	background-color: #0E7A9E;
+	padding: 10px;
+	color: White;
+	font-family: WP Greek Courier;
+	text-align: center;
+	font-size: 12px;
+}
+
+.heading
+{
+	background-color: #006666;
+	color: White;
+	vertical-align: middle;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: left;
+	width: 980px;
+	margin-bottom: 10px;
+	font-size: 14px;
+	height: 30px;
+	padding: 5px 5px 5px 5px;
+	border-radius: 5px;
+}
+
+
+.greed
+{
+	float: left;
+	width: 100%;
+	height: auto;
+	border: 2px solid #468d01;
+	border-radius: 4px;
+}
